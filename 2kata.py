@@ -355,3 +355,4 @@ def rpg(initial_field: InitField) -> list[str]:
     board = Board(field=initial_field)
     simulator = RPGSimulator(player=player, board=board)
     return simulator.destroy_demon_lord()
+    
